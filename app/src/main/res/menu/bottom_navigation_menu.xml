@@ -1,0 +1,21 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/navigation_home"
+        android:icon="@drawable/ic_home_black_24dp"
+        android:title="Home" />
+    <!-- Add other items as needed -->
+    <item
+        android:id="@+id/navigation_cuisineMagique"
+        android:icon="@drawable/ic_store"
+        android:title="Cuisine magique" />
+
+    <item
+        android:id="@+id/navigation_scan"
+        android:icon="@drawable/ic_barcode"
+        android:title="scan" />
+
+    <item
+        android:id="@+id/navigation_profile"
+        android:icon="@drawable/ic_profile"
+        android:title="profile" />
+</menu>

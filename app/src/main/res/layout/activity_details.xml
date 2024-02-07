@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".RecipeDetailsActivity">
+
+    <TextView
+        android:id="@+id/tvDetailsTitle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Recipe Details"
+        android:textSize="24sp"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="16dp"/>
+
+    <!-- Recipe Image -->
+    <ImageView
+        android:id="@+id/ivDetailsRecipeImage"
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+        android:src="@drawable/ic_store"
+        android:scaleType="centerCrop"
+        android:layout_below="@id/tvDetailsTitle"
+        android:layout_marginTop="8dp"/>
+
+    <!-- Ingredients Section -->
+    <TextView
+        android:id="@+id/tvIngredientsTitle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Ingredients"
+        android:textSize="20sp"
+        android:layout_below="@id/ivDetailsRecipeImage"
+        android:layout_marginTop="16dp"/>
+
+    <TextView
+        android:id="@+id/tvIngredients"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Ingredient 1, Ingredient 2, Ingredient 3"
+        android:layout_below="@id/tvIngredientsTitle"
+        android:layout_marginTop="8dp"/>
+
+    <!-- Additional Details (e.g., Cooking Instructions) -->
+    <!-- You can add more TextViews or other UI elements as needed -->
+
+</RelativeLayout>
